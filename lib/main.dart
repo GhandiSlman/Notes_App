@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
           ),
           iconTheme: IconThemeData(color: Color.fromARGB(255, 87, 173, 244)),
         ),
-        floatingActionButtonTheme: FloatingActionButtonThemeData(backgroundColor: Colors.grey[50])
+        floatingActionButtonTheme: FloatingActionButtonThemeData(backgroundColor: Colors.grey[50]),
       ),
       getPages: routes, 
       home: (FirebaseAuth.instance.currentUser != null )? HomePage() : Login(),
