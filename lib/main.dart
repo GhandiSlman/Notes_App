@@ -3,7 +3,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:notes/routes.dart';
-import 'package:notes/view/screens/add_folder.dart';
+
 import 'package:notes/view/screens/auth/login.dart';
 import 'package:notes/view/screens/auth/signup.dart';
 import 'package:notes/view/screens/home_page.dart';

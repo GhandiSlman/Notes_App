@@ -82,4 +82,12 @@ class LogiController extends GetxController {
     password = TextEditingController();
     super.onInit();
   }
+
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    super.dispose();
+    email.dispose();
+    password.dispose();
+  }
 }

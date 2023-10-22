@@ -45,4 +45,13 @@ class SignUpController extends GetxController {
     password = TextEditingController();
     super.onInit();
   }
+
+  @override
+  void dispose() {
+    // TODO: implement dispose
+    super.dispose();
+    name.dispose();
+    email.dispose();
+    password.dispose();
+  }
 }
